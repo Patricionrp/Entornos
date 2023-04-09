@@ -1,0 +1,68 @@
+a)<!-- Código controlado el día 12/08/2009 →
+
+    Esta linea refiere a un comentario con sintaxis HTML. La etiqueta de apertura <!-- requiere una etiqueta de cerrado
+    -->
+
+b)<div id="bloque1">Contenido del bloque1</div>
+
+    La etiqueta div define una division en la pagina web. Se coloca en la seccion <body>
+    El atributo id, es un identificador que permite referenciar al contenido de un <div> en especifico.
+
+c)<img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
+
+    La etiqueta <img> se utiliza para colocar imagenes en el sitio web.
+    El atributo "alt" permite visualizar un texto en el lugar donde se encuentre la imagen en caso de que esta no pueda
+    reproducirse.
+    El atributo id se utiliza como identificador para referenciar desde JavaScript o CSS.
+    El atributo name no es necesario.
+    Los atributos width y height se utilizan para ajustar el tamaño de la imagen.
+    El atributo longdesc se utiliza para agregar una descripcion detallada de la imagen
+
+d)<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+
+    Las etiquetas <meta> se utilizan para brindar informacion adicional al navegador.
+    El atibuto name indica el tipo de informacion que se desea proporcionar, en este caso palabras clave (keywords).
+    El atributo content indica el valor que puede tomar la informacion.
+
+    <meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
+        En este caso, mediante los atributos http-equiv y content, se establece una fecha de expiracion del contenido
+        de una pagina web.
+
+e)<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" 
+    rel="help">Resumen HTML </a>
+
+    Esta linea permite visualizar un enlace a una pagina web con el texto "Resumen HTML".
+    El atributo type indica que se esta referenciando a una pagina HTML. Es opcional agregarlo ya que el tipo de contenido
+    por defecto es text/html.
+    El atributo charset indica el conjunto de caracteres utilizada en la pagina vinculada.
+    El atributo hreflang indica el idioma en que se visualizara la pagina. Es util en caso de paginas multilenguaje.
+    El atributo rel, indica la relacion entre la pagina actual y la vinculada.
+
+f)<table width="200" summary="Datos correspondientes al ejercicio vencido">
+    <caption align="top"> Título </caption>
+        <tr>
+            <th scope="col">&nbsp;</th>
+            <th scope="col">A</th>
+            <th scope="col">B</th>
+            <th scope="col">C</th>
+        </tr>
+        <tr>
+            <th scope="row">1º</th>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th scope="row">2º</th>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+         </tr>
+</table>
+
+
+    Visualiza una tabla de 3 filas por 4 columnas. La etiqueta th refiere al titulo de cada columna, siendo la primera un
+    espacio en blanco (&nbsp).
+    La etiqueta tr (table row) crea una fila de la tabla.
+    La etiqueta th refiere a una celda de encabezado. La etiqueta td, refiere a una celda de datos.
