@@ -1,0 +1,71 @@
+a)<a href="http://www.google.com.ar">Click aquí para ir a Google</a>
+
+    Visualiza un enlace a google mediante el texto "Click aqui para ir a google".
+    Al hacer clic sobre el enlace, se abre reemplazando la pagina inicial en la misma pestaña.
+
+
+<a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+
+    Abre el enlace anteriormente mencionado en una pestaña nueva (atributo target="blank").
+
+<a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+
+    El atributo "type" especifica el tipo de contenido de la página de destino.
+    El atributo "hreflang" especifica el idioma de la página de destino.
+    El atributo "charset" especifica la codificación de caracteres utilizada en la página de destino.
+    El atributo "rel" especifica la relación del enlace con la página actual.
+    En este caso,"rel" tiene el valor "help", lo que indica que el enlace proporciona información adicional relacionada con la página actual.
+    Falta etiqueta de cierre.
+
+<a href="#">Click aquí para ir a Google</a>
+.
+    En este caso el atributo href refiere a la misma pagina o a una seccion de la pagina (no especificada en este caso).
+
+
+<a href="#arriba">Click aquí para volver arriba</a>.
+
+    Representa un "scroll" hacia arriba, referenciando a un ancla con name="arriba".
+
+<a name="arriba" id="arriba"></a>
+
+    Identifica el ancla de la linea anterior.
+
+b) <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
+
+        Este segmento crea un parrafo que contiene una imagen y un enlace.
+
+    <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
+    
+        Este segmento crea un parrafo que contiene una imagen como enlace y una visualizacion alternativa "imagen1"
+        El texto "click aqui" forma parte del parrafo pero no hace nada ya que esta fuera de la etiqueta <a>
+
+    <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p>
+        
+        Este segmento crea un parrafo que contiene un enlace, al cual lo representan una imagen y un texto ("Click aqui") en conjunto.
+
+    <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a href="http://www.google.com.ar">Click aquí</a></p>
+
+        Este segmento crea un parrafo que contiene al mismo enlace representado por un lado con una imagen y por otro con el texto "click aqui".
+
+c) La primera es una lista creada con la etiqueta <ul> unordered list, lista sin orden. Enlista los elementos <li>
+    con puntos.
+
+    La segunda es una lista creada con la etiqueta <ol> ordered list, lista ordenada. Enlista los elementos <li> con numeros
+    o letras.
+
+    La cuarta es una lista creada con tres etiquetas <ol> y utlizando el atributo value para dar un valor a los elementos <li>
+    de manera que sean asi ordenados. Esto es una mala practica ya que se llega a lo mismo que utilizando una sola etiqueta <ol>
+    y colocando los elemntos dentro de ella.
+
+    La cuarta es una lista creada mediante el uso de la etiqueta <blockcuote> lo cual crea un bloque de texto y una etiqueta <p> dentro
+    de ella.
+
+d)La primer tabla es una tabla de dos filas y dos columnas. La etiqueta th indica el encabezado de las columnas, mientras que td indica el contenido
+    de las celdas. Las etiquetas <tr> indican las filas de las tablas. El atributo width indica el ancho de la tabla, mientras que el atributo border crea los
+    bordes de las celdas, sin embargo, es mejor utilizar CSS para dar estilo a las tablas.
+
+e)La primera es una tabla de dos filas y tres columnas. Las etiquetas son similares a las del punto b) pero se agregan algunas como <caption> que representa
+el titulo de la tabla. El atributo bgcolor permite agregar un color de fondo, en este caso gris.
+
+La segunda es una tabla igual a la anterior, pero para el titulo se utiliza el atributo "colspan" indicando que 3 celdas conformaran una sola columna y la etiqueta
+<div> para centralizar el mismo.

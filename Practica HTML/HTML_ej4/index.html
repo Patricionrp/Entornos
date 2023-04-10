@@ -8,6 +8,17 @@
 </head>
  
 <style type="text/css">
+
+    #bloque{
+        border: 5px solid black;
+        margin-right: 5%;
+    }
+    
+    .consulta{
+
+        size: 300px;
+
+    }
  
     table, th, td
     {
@@ -39,29 +50,36 @@
             <td align="right">24/30</td>
         </tr>
     </table>
-    <!--ANOTAR COMO USAR LISTAS Y TIPOS-->
+   
     <ol>
-        <!--PREGUNTAR COMO HACER LOS LINKS-->
-        <li>Enunciado del examen</li>
-        <li>Resolucion</li>
+        <li><a href="#enunciado">Enunciado del examen</a> </li>
+        <li><a  href="resolucion.html" target="_blank">Resolucion</a></li>
     </ol>
     <br>
     <p>Puede realizar consultas mediante el siguiente formulario</p>
     <form action="" type="text">
+        
         e-mail:
-        <input type="text">
+        &nbsp;&nbsp;&nbsp;
+        <input type="email">
         <br>
         Consulta:
-        <input type="text">
+        <input id="consulta" type="text">
         <br>
-        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
-        <button>Enviar</button>
-        <button>Borrar</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Borrar">
+      
+    
     </form>
-    <h2>Enunciado del examen</h2>
-    <div>
-        <p>Ejercicio 1:................</p>
-        <p>Ejercicio 2:................</p>
+    <h2 id="enunciado">Enunciado del examen</h2>
+    <div align="justify" id="bloque">
+       <p>Enunciado 1:............................ <br>.................................................</p>
+    
+       <p>Enunciado 2:............................ <br>.................................................</p>
+       
     </div>
+    <br>
+    <p>Para mas informacion dirigirse a: <a href="mailto:contacto@xx.com">contacto@xx.com</a></p>
 </body>
 </html>
