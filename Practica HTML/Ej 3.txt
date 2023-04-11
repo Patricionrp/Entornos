@@ -75,3 +75,16 @@ En la segunda fila se unen las dos primeras celdas utilizando "rowspan"
 
 La segunda tabla también tiene tres columnas, pero tiene tres filas en lugar de dos. 
 La primera fila ocupa las tres columnas debido al uso de "colspan" y las dos celdas en la segunda fila se fusionan con "colspan" en las dos primeras columnas, mientras que la última celda está en la tercera columna.
+
+g)En estas tablas, vemos que cambian los bordes de las mismas, debido a que la segunda cuenta con los atributos cellpadding="0" y cellspacing="0". En ambas se muestran las mismas distribuciones de las celdas
+    pero se hicieron de maneras distintas utilizando los atributos colspan y rowspan.
+
+h)En este apartado tenemos tres formularios generados con el tag <form></form>. En la tercera y primera se utiliza <fieldset> para generar un recuadro y no haga falta utilizar <label>. 
+    En estos dos también se utiliza <legend> para establecer un título, a diferencia del segundo formulario.
+
+i)En la primera observamos un botón con una imagen y un texto dentro, y en la segunda observamos solamente el texto. 
+    Esto sucede básicamente porque en la primera se utiliza las etiquetas <button></button> dentro de las cuales podemos incluir una imagen con <img/> y un texto en negrita con <b>CLICK AQUÍ</b>, mientras que en la segunda solamente utilizamos la etiqueta <input/> y la establecimos del tipo button con type="button" y le dimos el texto con value="CLICK AQUÍ".
+
+j)Visualmente se ve en ambas, dos opciones para elegir. En el primer código sólo podemos elegir uno a la vez, debido a que se usa el atributo name="opcion" con el mismo valor en ambos, mientras que en el segundo los valores de este atributo son distintos lo que nos permite tener seleccionado los dos al mismo tiempo.
+
+h)En el primer segmento tenemos un conjunto de opciones desplegables, mientras que en el segundo tenemos las mismas opciones con una scrollbar que se realizó con el atributo multiple="multiple", dentro de la etiqueta principal <select></select>.

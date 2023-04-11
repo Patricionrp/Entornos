@@ -11,6 +11,7 @@ b)<div id="bloque1">Contenido del bloque1</div>
 c)<img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
 
     La etiqueta <img> se utiliza para colocar imagenes en el sitio web.
+    El unico atributo obligatorio es "src"
     El atributo "alt" permite visualizar un texto en el lugar donde se encuentre la imagen en caso de que esta no pueda
     reproducirse.
     El atributo id se utiliza como identificador para referenciar desde JavaScript o CSS.
