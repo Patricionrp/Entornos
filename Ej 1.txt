@@ -1,0 +1,14 @@
+1)  HTML es un lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones. 
+Fue creado en 1990. Las principales versiones de HTML son: HTML 3.0, HTML 3.2, HTML 4.01, y la actual HTML 5.0.
+
+2) Los principios básicos que se deben seguir para la creación de un documento HTML son:
+Un documento HTML comienza siempre con la etiqueta <HTML>, que indica que el documento en cuestión está construido con dicho lenguaje.
+ La mayoría de las etiquetas son pareadas, es decir, <...> corresponde al principio de la acción y  </…> indica el fin de dicha acción.
+ Una página web estará siempre contenida entre las etiquetas <HTML> y  </HTML>.
+Todo documento consta de las etiquetas <HEAD> </HEAD> y <BODY> </BODY>.
+
+3) Muchos de los elementos y atributos de presentación del HTML se hicieron obsoletos cuando las hojas de estilos comenzaron a ofrecer mecanismos de presentación mucho más potentes. Por lo que en la especificación dichos elementos y atributos se marcan como "desaprobados". 
+
+4) Una definición de tipo de documento o DTD es una descripción de estructura y sintaxis de un documento HTML. En HTML 4.01 existen la Declaración transitoria y la Declaración estricta.
+
+5) Los metadatos son datos que describen datos, y HTML tiene una forma de introducir metadatos en un documento con el elemento <meta> que se ubica en el head del documento.
