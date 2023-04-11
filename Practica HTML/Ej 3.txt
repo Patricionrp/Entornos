@@ -69,3 +69,9 @@ el titulo de la tabla. El atributo bgcolor permite agregar un color de fondo, en
 
 La segunda es una tabla igual a la anterior, pero para el titulo se utiliza el atributo "colspan" indicando que 3 celdas conformaran una sola columna y la etiqueta
 <div> para centralizar el mismo.
+
+f)La primer tabla tiene dos filas y tres columnas. Mediante el uso de "colspan" unifica las tres primeras columnas para crear el titulo de la tabla.
+En la segunda fila se unen las dos primeras celdas utilizando "rowspan"
+
+La segunda tabla también tiene tres columnas, pero tiene tres filas en lugar de dos. 
+La primera fila ocupa las tres columnas debido al uso de "colspan" y las dos celdas en la segunda fila se fusionan con "colspan" en las dos primeras columnas, mientras que la última celda está en la tercera columna.
