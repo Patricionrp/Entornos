@@ -1,0 +1,38 @@
+1. ¿ Qué es CSS y para qué se usa?
+
+    CSS son las siglas de Cascade Style Sheet. Es una tecnologia que nos permite controlar la apariencia de
+    una pagina web.
+
+2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?
+
+    Las reglas son declaraciones sobre el estilo de uno o mas elementos.
+    La regla tiene dos partes: un selector y la declaración. A su vez la declaración está compuesta por una propiedad y el valor que 
+    se le asigne.
+    Ej:
+        h1 {color: red;}
+    Donde: h1= selector; {color:red;} = declaracion; red= valor.
+
+    El selector funciona como enlace entre el documento y el estilo, especificando los 
+    elementos que se van a ver afectados por esa declaración.
+    La declaración es la parte de la regla que establece cuál será el efecto
+
+
+3. ¿ Cuáles son las tres formas de dar estilo a un documento?
+
+    1) Utilizando una hoja de estilo externa (ej: style.css), la cual estara vinculada a un elemento a traves
+        de la etiqueta <link> en la seccion <head>. Ej: <link rel="stylesheet" href="styles.css">
+    2)Utilizando la etiqueta <style> en el interior del documento html y dentro de la seccion <head>
+        Ej:<head>
+            <style>
+                #texto1{
+                border:10px;
+                }
+            </style>
+            </head>
+    3)Utilizando <style> directamente como un atributo dentro de la etiqueta que lo permita y dentro de <body>
+        Ej: <h1 style= "color: red;"> texto en rojo </h1>
+4. ¿ Cuáles son los distintos tipos de selectores más utilizados? 
+Ejemplifique cada uno.
+5. ¿ Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
+6. ¿ Qué es la herencia?
+7. ¿ En qué consiste el proceso denominado cascada?
