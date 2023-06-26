@@ -1,0 +1,30 @@
+Ejercicio 1:
+
+ Ambos códigos php representan lo mismo.
+ En ambos se define una matriz asociativa, pero se le asignan sus valores de formas distintas.
+ Esto 'color' => 'rojo', representa lo mismo que esto $a['color'] = 'rojo';
+
+
+Ejercicio 2:
+
+a) La salida es: bar1
+
+b) La salida es: 5942
+
+c) No produce salida
+
+
+Ejercicio 3:
+
+a) La salida es: Has entrado en esta pagina a las 8 horas, con 46 minutos y 44 segundos, del 16/6/2023
+ Accedemos a las varibles con $fun[x]
+
+b) La salida es: 5+6=11
+
+Ejercicio 4:
+
+ Esta función toma como argumento un string que representa el nombre del usuario.
+ Primero comprueba que la longitud sea mayor a 3 y menor a 20, en caso contrario sale de la función retornando false.
+ Luego define un alfabeto de permitidos en $permitidos.
+ En un for va recorriendo el string $nombre_usuario, si encuentra una letra que no este en el alfabeto, sale de la función con false.
+ Si cumple con los if's muestra que es válido y retorna true.

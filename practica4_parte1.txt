@@ -1,0 +1,63 @@
+Ejercicio 1)
+
+Variables y tipos
+
+$a=boolean
+$b=string
+$c=string
+$d=integer
+$f=integer
+$g=integer
+
+Operadores
+
+*
+?:
++=
+**
+
+Funciones
+
+doble($i) $i=parametro
+gettype($var)
+is_int($var)
+is_string($var)
+
+Estructuras de control
+
+if
+
+Salida por pantalla
+
+booleanstringstringinteger1xyzxyz184444
+
+Ejercicio 2)
+
+a) Los tres fragmentos de codigo son equivalentes.
+    En los dos primeros se utiliza la estructura de control while pero escrita con distinta sintaxis
+    En el tercer fragmento de codigo, se utiliza la estructura de control do...while pero realiza el mismo proceso.
+
+b) Los cuatro fragmentos de codigo son equivalentes. Se utiliza la estructura iterativa for generando un bucle
+    que imprime los numeros del 1 al 10.
+
+c) Ambos fragmentos son equivalentes. El primero evalua el valor de la variable $i mediante el uso de la estructura de control if equivalentes
+    El segundo fragmento emplea la estructura de control switch.
+
+Ejercicio 3)
+
+    a) Este codigo se utiliza para crear una tabla combinando php y html.
+        La tabla es generada con las lineas echo "<table width = 90% border = '1' >"; y  echo "</table>\n";
+        Empleando la estructura iterativa for, el codigo maneja la cantidad de filas y columnas de la tabla
+        y las celdas de esta.
+
+    b) Este codigo se utiliza para crear un formulario.
+        Si el formulario no fue completado, solicita el ingreso de la edad
+
+
+4)La salida de este codigo da como resultado dos warnings debido a que las variables $flor y $color no estan definidas
+    correctamente en el segundo fragmento de codigo. Pero luego, como las variables son "llamadas" despues de incluir
+    el archivo datos.php, abajo de los warnings se muestra la frase "El el clavel blanco" ya que muestra el contenido
+    del primer echo().
+
+5) Este conjunto de archivos genera una página web, y cada vez que abrimos el archivo html, un contador en el archivo .dat se incrementará una unidad.
+ Debido a que se ejecuta el archivo contador.php al ingresar a la página.
